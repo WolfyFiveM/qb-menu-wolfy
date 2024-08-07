@@ -6,7 +6,6 @@ local sendData = nil
 
 AddEventHandler('onResourceStart', function(resource)
     if GetCurrentResourceName() == resource then
-        print("closed")
         TriggerEvent("qb-menu:client:closeMenu")
     end
 end)
